@@ -1,0 +1,86 @@
+.splashfoot{display: none;}
+@media (max-width: 1300px) {
+	.logo-login{width: 260px; height: 139px; margin: 15% auto 0;}
+	.login-right{padding: 50px;}
+	.video-frame{width: 275px; padding: 5px;}
+	.login-left:after{width: 290px; background-size: 100%; left: 56%; bottom: 10px;}
+	.icon-istore, .icon-astore{margin:100px 4px 0px;}
+}
+@media (max-width: 991px) {
+	.login-left{width: 40%;}
+	.login-right{width: 60%; padding: 50px 40px;}
+	.logo-login{width: 240px; height: 129px;}
+	.video-frame{width: 265px; padding: 5px;}
+	.login-left:after{width: 290px; left: 55%; background-size: 100%;}
+	.icon-istore, .icon-astore{margin-top: 50px;}
+	.row-steps h1{font-size: 30px;}
+	.role-login {display: inline-block; float: none; margin: 15px;}
+}
+@media (max-width: 767px) {
+	.login-left{width: 100%; height: unset;}
+	.logo-login{height: 100px; margin: 7% auto 0; width: 180px;}
+	.video-frame{width: 225px; margin: 25px auto; padding: 5px;}
+	.login-left:after{display: none;}
+	.login-right{padding: 20px; width: 100%;}
+	.btn-normal{margin-top: 0px;}
+	.login-h1{font-size: 22px; text-align: center;}
+	.login-p{font-size: 14px; line-height: 22px; margin-top: 15px; text-align: justify;}
+	.splashfoot{
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		box-shadow: 0px -2px 3px rgba(0,0,0,0.2);
+		width: 100%;
+		background: #fff;
+		z-index: 99;
+		display: block;
+	}
+	.icon-istore, .icon-astore{margin: 0px 10px; display: inline-block; float: none;}
+	.splash-reveal{
+		padding: 10px 0px;
+		border-top: 1px solid #ddd;
+		text-align: center;
+	}
+	.clicksplash{cursor: pointer;}
+	.clicksplash p{font-size: 20px; text-align: center; margin-bottom: 0px; float: left; line-height: 35px;}
+	.revealsplash{
+		width: 35px;
+		height: 35px;
+		border: 1px solid #979695;
+		border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px;
+		float: right;
+		position: relative;
+		transition: all ease-in-out .3s;
+	}
+	.revealsplash:after{
+		width: 10px;
+		height: 10px;
+		content: '';
+		border: 2px solid #979695;
+		border-bottom: unset;
+		border-right: unset;
+		transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		position: absolute;
+    left: 11px;
+    top: 14px;
+	}
+	.revealsplash.fliparow{
+		transition: all ease-in-out .3s;
+		transition-delay: .2s;
+		transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
+	}
+	.row-steps h1{font-size: 20px;}
+	.role-login{float: none; display: inline-block; margin: 5px;}
+	.role-login h2 {font-size: 18px; margin-top: 5px;}
+	.role-login i{width: 125px; height: 124px;}
+	.role-login i.home-owner{background-size: 200%;}
+	.role-login i.contractor{background-size: 200%; background-position: -125px 0;}
+	.expertise-area span{font-size: 16px; margin-top: 0px;}
+}
+@media (max-width: 479px) {
+	
+}

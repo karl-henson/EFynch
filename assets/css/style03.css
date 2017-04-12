@@ -1,0 +1,183 @@
+.banner {
+    height: calc(100vh - 100px);
+}
+
+.background video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
+
+.landingTitle1 {
+    font-family: "Comic Sans MS";
+    font-size: 8vh;
+    font-weight: bold;            
+    line-height: 8vh;
+    color: #df272c;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.landingTitle2 {
+    font-family: "Comic Sans MS";
+    font-size: 10vh;
+    font-weight: bold;
+    line-height: 10vh;
+    color: #df272c;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+    margin-bottom: 5vh;
+}
+
+.underline {            
+    text-decoration: underline;
+}
+
+.applink{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+button.link{
+    width: 17.2vw;
+    height: 5.2vw;
+    max-width: 172px;
+    max-height: 52px;
+    border: none;
+    border-radius: 10px;
+    overflow: none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.googlePlay {
+    background-image: url("./assets/img/toGooglePlay.png");
+}
+
+.appStore {
+    margin-top: 1vh;
+    background-image: url("./assets/img/toAppStore.png");
+}
+
+.vcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.advertise {
+    background-color: #faa020;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.advertise p{
+    margin: 0;
+}
+
+.main {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.main .row{
+    padding: 50px 0 20px 0;
+}
+
+.row .col-sm-4 img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.socialicon{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: 10px;
+    background: url("./assets/img/social-link.png");
+}
+
+.facebook-1 {
+    background-position: 0px 0px;
+}
+
+.facebook-1:hover {
+    background-position: 0px -90px;
+    transition: 0.3s fade-in;
+}
+
+.twitter-1 {
+    background-position: -45px 0px;
+}
+
+.twitter-1:hover {
+    background-position: -45px -90px;
+    transition: 0.3s fade-in;
+}
+
+.instagram {
+    background-position: -90px 0px;
+}
+
+.instagram:hover {
+    background-position: -90px -90px;
+    transition: 0.3s fade-in;
+}
+
+.googleplus {
+    background-position: 0px -45px;
+}
+
+.googleplus:hover {
+    background-position: 0px -135px;
+    transition: 0.3s fade-in;
+}
+
+.youtube {
+    background-position: -45px -45px;
+}
+
+.youtube:hover {
+    background-position: -450px -135px;
+    transition: 0.3s fade-in;
+}
+
+.linkedin-1 {
+    background-position: -90px -45px;
+}
+
+.linkedin-1:hover {
+    background-position: -90px -135px;
+    transition: 0.3s fade-in;
+}
+
+.subtitle {
+    color: #f79724; line-height: 50px
+}
+
+footer {
+    width: 100%;
+    padding: 0;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    background-color: white;
+}
+
+footer>div:first-child{
+    background-color: #feecd3;
+}

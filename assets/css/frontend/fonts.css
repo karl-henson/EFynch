@@ -1,0 +1,34 @@
+@font-face{
+	font-family:'SegoeUIR';
+	src: url('../../fonts/segoeui.eot');
+	src: url('../../fonts/segoeui.eot?#iefix') format('embedded-opentype'),
+	  	 url('../../fonts/SegoeUI.ttf') format('truetype'),
+	 	 url('../../fonts/SegoeUI.svg') format('svg');
+}
+@font-face{
+	font-family:'SegoeUIB';
+	src: url('../../fonts/segoeuib.eot');
+	src: url('../../fonts/segoeuib.eot?#iefix') format('embedded-opentype'),
+	  	 url('../../fonts/SegoeUI-Bold.ttf') format('truetype'),
+	 	 url('../../fonts/SegoeUI-Bold.svg') format('svg');
+}
+@font-face{
+	font-family:'SegoeUIL';
+	src: url('../../fonts/SEGOEUIL.eot');
+	src: url('../../fonts/SEGOEUIL.eot?#iefix') format('embedded-opentype'),
+	  	 url('../../fonts/SegoeUI-Light.ttf') format('truetype'),
+	 	 url('../../fonts/SegoeUI-Light.svg') format('svg');
+}
+@font-face{
+	font-family:'SegoeUISB';
+	src: url('../../fonts/seguisb.eot');
+	src: url('../../fonts/seguisb.eot?#iefix') format('embedded-opentype'),
+	  	 url('../../fonts/SegoeUI-SemiBold.ttf') format('truetype'),
+	 	 url('../../fonts/SegoeUI-SemiBold.svg') format('svg');
+}
+@font-face{
+	font-family:'ShonarB';
+	src: url('../../fonts/Shonarb.eot');
+	src: url('../../fonts/Shonarb.eot?#iefix') format('embedded-opentype'),
+	  	 url('../../fonts/ShonarBangla-Bold.ttf') format('truetype'),
+	 	 url('../../fonts/ShonarBangla-Bold.svg') format('svg');

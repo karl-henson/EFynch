@@ -1,0 +1,322 @@
+.textarea{
+          padding-left: 50px;
+          padding-right: 50px;
+      }
+      .textarea #note_customer{
+          width: 100%;
+          resize: vertical;
+          font-size: 14px;
+          margin-bottom: 1.5%;
+      }
+      .heading-2,.padd-bott{
+          margin-bottom: 5%;
+      }
+      .heading-2 h3{
+          text-align: center;
+      }
+      figcaption{
+          font-size: 18px;
+          margin-bottom: 3%;
+          padding-top: 12px;
+          font-weight: bold;
+          text-transform: capitalize;
+          letter-spacing: 1px;
+          text-align: center;
+      }
+      #carftsman > img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 105px;
+}
+#workspace > img{
+  display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 105px;
+}
+#excellent > img{
+  display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 105px;
+}
+.submt-btn {
+    display: block;
+    margin: 20px 0 40px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+.submt-btn .btn-primary {
+    background-color: #f79227 !important;
+    border-color: #f79227 !important;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 269px;
+}
+.textarea_style{
+  resize: vertical;
+  min-height: 300px;
+  margin-bottom: 20px;
+}
+.rating-star{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 40px 0;
+}
+.rating-star ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.rating-star ul li {
+    display: inline-block;
+    font-size: 45px;
+    padding: 0 20px 0 0;
+}
+.rating-star ul li a{
+  color: #f79227;
+  transition:all 0.3s ease-in-out 0s;
+}
+.page_header {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 50px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+.page_header h1{
+  font-weight: 600;
+}
+.Private_page_secton{
+  margin-left: 30px;
+    margin-top: 20px;
+}
+.Private_page_secton .label_txt {
+    font-size: 16px;
+} 
+.Private_page_secton .input100-login {
+    background: #e6e6e6 none repeat scroll 0 0;
+    border-top: 1px solid #d0d0d0;
+    color: #3e3e3e;
+    display: block;
+    font-size: 16px;
+    height: 57px;
+    margin-top: 16px;
+    padding: 3px 3px 3px 20px;
+    width: 50%;
+}
+.Private_page_secton .radius30p {
+    border-radius: 30px;
+}
+.radio {
+  padding-left: 20px; 
+  outline: none;
+}
+.radio label {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 5px; 
+  outline: none;
+}
+.radio label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  margin-left: -20px;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  background-color: #fff;
+  -webkit-transition: border 0.15s ease-in-out;
+  -o-transition: border 0.15s ease-in-out;
+      transition: border 0.15s ease-in-out; 
+  }
+.radio label::after {
+  display: inline-block;
+  position: absolute;
+  content: " ";
+  width: 9px;
+  height: 9px;
+  left: 4px;
+  top: 4px;
+  margin-left: -20px;
+  border-radius: 50%;
+  background-color: #eb953e;
+  -webkit-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  transform: scale(0, 0);
+  outline: none;
+  -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+      transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
+.radio input[type="radio"] {
+  opacity: 0;
+    z-index: 1; }
+.radio input[type="radio"]:focus + label::before {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+.radio input[type="radio"]:checked + label::after {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+      transform: scale(1, 1); }
+.radio input[type="radio"]:disabled + label {
+      opacity: 0.65; }
+.radio input[type="radio"]:disabled + label::before {
+        cursor: not-allowed; }
+.radio.radio-inline {
+    margin-top: 0; }
+.inline-radio {
+    display: inline-flex;
+    vertical-align: middle;
+}    
+.inline-radio > p {
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.block-div{
+  position: relative;
+}
+.block-div:after{
+  display: block;
+  clear: both;
+  /*content: "";*/
+}
+.inline-radio .last-child {
+    padding-left: 12px;
+    position: relative;
+}
+.heder-tit > h3 {
+    border-bottom: 2px solid #000;
+    display: inline;
+    font-weight: 600;
+}
+.heder-tit{
+  display: block;
+  margin:32px 0;
+}
+.Private_page{
+  display: block;
+  margin:0 0 30px;
+}
+.Private-btn{
+  margin:40px 0 0 ;
+}
+.rating-star ul li a:hover{
+  color: red;
+}
+ .rating-star ul li a:focus{
+  color: red;
+}
+.carftsman{
+  position: relative;
+}
+.focus-img > img:hover {
+    bottom: 47px;
+    position: absolute;
+    right: 125px;
+    width: 110px;
+    display: block;
+}
+.focus-img {
+    background-color: rgba(255, 255, 255, 0.53);
+    border-radius: 82px;
+    bottom: 0;
+    color: #eb953e;
+    font-size: 40px;
+    height: 105px;
+    line-height: 110px;
+    margin: 0 auto;
+    position: absolute;
+    right: 107px;
+    text-align: center;
+    top: 0;
+    width: 105px;
+}
+.img-holder > img {
+       display: block;
+       height: auto;
+       margin: 0 auto;
+       width: 105px;
+   }
+.rating-panel{
+  margin-top: 16px; 
+  padding-left: 20px;
+}
+.sub-panel{
+  float: left; 
+  margin-right: 25px;
+}
+div.sub-panel p{
+  margin-left: 4px;
+}
+div.sub-panel label{
+  cursor: pointer;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    margin-left: 16px;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    
+    width: 100px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 1 !important;
+    /*border: 2px solid #719ECE;*/
+    background-color: #3c3d40;
+    color: #fff;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #3c3d40 transparent transparent transparent;
+}
+div.label_txt{
+  padding-bottom: 20px;
+}
+.show-radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+.temp-radio p{
+  padding-top: 0px; 
+  padding-right: 10px; 
+  padding-bottom: 10px;
+}
